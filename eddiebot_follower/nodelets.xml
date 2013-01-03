@@ -1,0 +1,7 @@
+<library path="lib/libeddiebot_follower">
+ <class name="eddiebot_follower/EddiebotFollower" type="eddiebot_follower::EddiebotFollower" base_class_type="nodelet::Nodelet">
+ <description>
+ The eddiebot people follower node.
+ </description>
+ </class>
+</library> 

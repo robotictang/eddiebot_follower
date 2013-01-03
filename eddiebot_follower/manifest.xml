@@ -1,0 +1,22 @@
+<package>
+  <description brief="eddiebot_follower">
+
+     Follower for the eddiebot. Follows humans and robots around
+     by following the centroid of a box points infront of the
+     eddiebot.
+
+  </description>
+  <author>Tang Tiong Yew</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/follower</url>
+  <depend package="nodelet"/>
+  <depend package="tf"/>
+  <depend package="roscpp"/>
+  <depend package="pcl_ros"/>
+  <export>
+    <nodelet plugin="${prefix}/nodelets.xml" />
+  </export>
+</package>
+
+
